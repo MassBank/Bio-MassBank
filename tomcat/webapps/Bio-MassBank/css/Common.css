@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/*******************************************************************************
+ *
+ * Copyright (C) 2014 MassBank Project
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ *******************************************************************************
+ *
+ * Common.css
+ *
+ * ver 1.0.0 Feb. 3, 2014
+ *
+ ******************************************************************************/
+body {
+	font-family: Arial, 'MS UI Gothic', sans-serif, monospace;
+	margin:0px;
+}
+.footer {
+	color: dimgray;
+	font-size :10pt;
+	padding-left: 8px;
+}
+.cursorLink {
+	cursor: pointer;
+}
+.cursorText {
+	cursor: text;
+}
+.cursorWait { cursor: wait;
+}
+.cursorDefault {
+	cursor: default;
+}
+.cursorHelp {
+	cursor: help;
+}
+.formStyle {
+	margin: 0;
+}
+.divSpacer9px {
+	height: 9px;
+	overflow: hidden;
+}
+#menu {
+	background-color: Indigo;
+	color:white;
+	font-size: 11pt;
+	margin:0px;
+}
+#menu td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#menu td.selected {
+	background-color: Gold;
+}
+#menu a {
+	font-size:medium;
+	color:white;
+	font-size: 11pt;
+	text-decoration: none;
+}
+table.form-box {
+	background-color: WhiteSmoke;
+	border: 1px silver solid;
+}
+table.condition {
+	border-collapse: collapse;
+}
+td.condition_title {
+	border: 1px silver solid;
+	background-color: dimgray;
+	color: white;
+	padding-left: 7px;
+}
+td.condition_item {
+	padding: 5px;
+	border-left: 1px silver solid;
+	border-right: 1px silver solid;
+	border-bottom: 1px silver solid;
+}
+div.instrument-scroll {
+	height:200px;
+	overflow-y: scroll;
+	border-left: 1px silver solid;
+	border-right: 1px silver solid;
+	border-bottom: 1px silver solid;
+}
+input.search {
+	background:PaleGoldenrod;
+}
+img {
+	border:none; text-decoration:none;
+}
+#common_page_head {
+	background-color: WhiteSmoke;
+	border-bottom: 1px Gainsboro solid;
+	padding: 10px;
+	font-size: 24pt;
+	font-weight:bold;
+}
+#main {
+	padding-top:15px;
+	padding-left:15px;
+	text-align: left;
+}
+#record_page_head {
+	background-color: WhiteSmoke;
+	border-bottom: 1px DimGray solid;
+	padding: 5px;
+	font-family:Times;
+	font-size: 16pt;
+	font-weight:bold;
+}
+#record_page_title {
+	color: black;
+	font-size: 18pt;
+}
+#record_page_contents {
+	padding-top:5px;
+	padding-left:8px;
+	font-family:Courier New;
+	font-size:10pt;
+	margin-bottom:0;
+}
+#search_parameter {
+	width: 920px;
+	padding: 10px;
+	text-align:left;
+	background-color: Ivory;
+	border: 2px solid dimgray;
+	color: dimgray;
+}
+#statistics {
+	color: #fff;
+	width: 820px;
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align:left;
+	background-color: MintCream;
+	border: 1px solid silver;
+	color:black;
+}
+
+h2 {
+	background:#ededed url(../image/h2.gif) no-repeat 10px 5px;
+	padding:0 0 0 25px;
+	margin:15px 0;
+	font-size:16px;
+	color:#333;
+	line-height: 35px;
+}
+

@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*******************************************************************************
+ *
+ * Copyright (C) 2014 MassBank Project
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ *******************************************************************************
+ *
+ * Admin.css
+ *
+ * ver 1.0.0 Feb. 3, 2014
+ *
+ ******************************************************************************/
+body {
+	font-family: Arial, 'MS UI Gothic', sans-serif, monospace;
+	margin:0px;
+}
+
+h2 {
+	width: 980px;
+	border-top: 1px #333333 solid;
+	border-bottom: 1px #333333 solid;
+	border-left: 10px #333333 solid;
+	border-right: 1px #333333 solid;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	background-color: white;
+	background-repeat:no-repeat;
+	background-position: left bottom;
+	margin:10px;
+}
+
+#main {
+	padding-top:15px;
+	padding-left:15px;
+	text-align: left;
+}
+
+#menu {
+	background-color: #333333;
+	color:white;
+	font-size: 11pt;
+	margin:0px;
+}
+#menu td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#menu td.selected {
+	background-color: SpringGreen;
+}
+#menu td.notSelected {
+	background-color: LightGray;
+}
+#menu a {
+	font-size:medium;
+	color:WhiteSmoke;
+	font-size: 11pt;
+	text-decoration: none;
+}
+
+hr {
+	width: 98%;
+	height: 1px;
+	border-top: 1px dimgray solid;
+	border-bottom: 0;
+	text-align: left;
+	margin-left: 0px;
+	clear:both;
+}
+* { box-sizing : border-box}
+* { -moz-box-sizing : border-box}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.tbTitle {
+	width: 980px;
+	border: 0px silver solid;
+	padding: 2px;
+	padding-left: 10px;
+	background-color: dimgray;
+	color: white;
+}
+
+.tb0 {
+	width: 980px;
+	border: 1px silver solid;
+	padding: 2px;
+	padding-left: 10px;
+	background-color: WhiteSmoke;
+}
+
+.tb1 {
+	width: 980px;
+	border: 1px silver solid;
+	border-top: 0px;
+	padding: 2px;
+	padding-left: 10px;
+	background-color: WhiteSmoke;
+}
+
+.tb2 {
+	width: 980px;
+	border: 1px silver solid;
+	border-top: 0px;
+	padding: 2px;
+	padding-left: 10px;
+	background-color: Azure;
+}
+
+.tb3 {
+	border: 1px dimgray solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: white;
+}
+
+.tbUpdate {
+	width: 980px;
+	font-weight:bold;
+	border: 1px silver solid;
+	border-top: 0px;
+	padding: 2px;
+	padding-left: 10px;
+	background-color: GreenYellow;
+}
+
+.ok {
+	color: black;
+	background-color: gold;
+}
+
+.ng {
+	color: white;
+	background-color: red;
+}
+
+td.details {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 7px;
+	font-size: 13px;
+}
+select.db {
+	width: 100;
+}
+td.leftIndent {
+	padding-left: 7px;
+	text-align: left;
+}
+td.center {
+	text-align: center;
+}
+
+td.manage {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 7px;
+	text-align: left;
+	font-size: 13px;
+	min-height: 40px;
+	word-break:break-all;
+}
+
+tr.rowHeader {
+	height: 20px;
+	text-align: center;
+	background-color: DimGray;
+	color: White;
+	font-weight: bold;
+}
+tr.rowEnable {
+	min-height: 20px;
+	background-color:WhiteSmoke;
+	font-weight: bold;
+}
+tr.rowDisable {
+	min-height: 20px;
+	background-color: WhiteSmoke;
+	color: LightSteelBlue;
+	font-weight: bold;
+}
+
+div.count {
+	width: 980px;
+	text-align: right;
+	font-style: italic;
+}
+.msgFont {
+	color: Blue;
+	font-weight: bold;
+}
+.warnFont {
+	color: Coral;
+	font-weight: bold;
+}
+.errFont {
+	color: Crimson;
+	font-weight: bold;
+}
+.baseFont {
+	color: Black;
+	font-weight: bold;
+}
+.pathFont {
+	color: DarkGoldenrod;
+	font-weight: bold;
+}
+.urlFont {
+	color: #297acc;
+	font-style: italic;
+}
+.note {
+	font-size: 12px;
+	font-style: italic;
+	color: #39405A;
+	text-decoration: none;
+}
+.readOnly {
+	background-color: WhiteSmoke;
+	color : DimGray;
+}
+
+hr.admin_info {
+	width:980px;
+	border-style:dashed;
+}
+
+span.success {
+	color : Indigo;
+	font-weight:bold;
+}
+
+#regist {
+	background:red;
+	color:white;
+	border-color:red;
+	font-weight:bold;
+}
+
+#get {
+	background:ForestGreen;
+	color:white;
+	border-color:Green;
+	font-weight:bold;
+}
+
+#delete {
+	background:black;
+	color:white;
+	border-color:black;
+	font-weight:bold;
+}

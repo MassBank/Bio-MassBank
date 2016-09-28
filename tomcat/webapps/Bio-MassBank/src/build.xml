@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Bio-MassBank" default="build" basedir=".">
+	<property name="src_dir" location="../src"/>
+	<property name="build_dir" location="../WEB-INF/classes"/>
+	<property name="common_lib_dir" location="../../../lib" />
+	<property name="app_lib_dir" location="../WEB-INF/lib" />
+	<path id="class_path">
+		<fileset dir="${common_lib_dir}"/>
+		<fileset dir="${app_lib_dir}"/>
+	</path>
+	<target name="build" depends="jar,clean"/>
+	<target name="clean">
+		<delete dir="${build_dir}/net/" />
+	</target>
+	<target name="compile">
+		<javac encoding="utf-8" srcdir="${src_dir}/net/massbank" destdir="${build_dir}" excludes="applet/" classpathref="class_path" debug="true"/>
+	</target>
+	<target name="jar" depends="compile">
+		<jar jarfile="${app_lib_dir}/massbank.jar" basedir="${build_dir}"/>
+	</target>
+</project>
